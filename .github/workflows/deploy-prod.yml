@@ -20,4 +20,7 @@ jobs:
 
       - name: Deploy to Lightsail
         run: |
-          ssh -o StrictHostKeyChecking=no bitnami@18.156.139.45 "cd stack/wordpress/wp-content/themes/prodia/ && git pull"
+          ssh -i StrictHostKeyChecking=no bitnami@18.156.139.45
+          pwd
+          cd stack/wordpress/wp-content/themes/prodia/
+          ls
