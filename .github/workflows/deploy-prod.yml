@@ -27,4 +27,4 @@ jobs:
       run: |
         pwd
         ls
-        scp * ${{ secrets.SSH_USER }}@${{ SSH_HOST }}:/${{ SSH_DIR }}
+        scp * ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/${{ secrets.SSH_DIR }}
