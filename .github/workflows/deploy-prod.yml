@@ -1,4 +1,4 @@
-name: Deploy WordPress Theme to Prod
+name: Deploy to Prod
 
 on:
   push:
