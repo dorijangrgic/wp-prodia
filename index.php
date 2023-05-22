@@ -19,6 +19,8 @@ endif;
 else: ?>
     <h1>Log in to see content!</h1>
     <button id="login-button">Login!</button>
+    <h2><?php echo $_ENV["CLIENT_ID"]?></h2>
+    <h2><?php echo $_ENV["CALLBACK_URL"]?></h2>
 <?php endif;
 
 get_footer();
